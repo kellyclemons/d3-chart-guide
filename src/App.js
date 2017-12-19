@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import BarChart from "./BarChart.js"
+import BarChart from './BarChart.js';
+// import LineChart from './LineChart.js';
 // import LineChartExample from './LineChartExample';
 
 class App extends Component {
