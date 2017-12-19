@@ -4,7 +4,7 @@ import './App.css';
 // import { max } from 'd3-array';
 // import { select } from 'd3-selection';
 
-import { XYFrame } from 'semiotic';
+import { XYFrame } from 'semiotic'
 
   <XYFrame
   size={[ 700,500 ]}
@@ -21,3 +21,6 @@ import { XYFrame } from 'semiotic';
   ]}
   hoverAnnotation={true}
   />
+
+
+// PROP TYPES

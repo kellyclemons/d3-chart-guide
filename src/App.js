@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import BarChart from "./BarChart.js"
+// import LineChartExample from './LineChartExample';
 
 class App extends Component {
   render() {
@@ -10,9 +12,10 @@ class App extends Component {
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <h1 className="App-title">Kelly's D3 Chart Guide</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="App-Container">
+          {/* <LineChartExample /> */}
+          <BarChart />
+        </div>
       </div>
     );
   }
