@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import BarChart from './BarChart.js';
 import LineChart from './LineChart.js';
+import LineBrush from './LineBrush.js';
 // import LineChartExample from './LineChartExample';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
           {/* <LineChartExample /> */}
           <BarChart />
           <LineChart />
+          <LineBrush />
         </div>
       </div>
     );
